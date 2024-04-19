@@ -1,0 +1,163 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #8FB339;
+}
+.menu ul{
+    background-color: #8FB339;
+    text-align: left;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+}
+.menu a{
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    margin: -5px;
+    font-weight: bold;
+    color: black;
+}
+.menu ul li a:hover{
+    background-color: #4B5842;
+    color: #DADDD8;
+}
+.comecocontainer{
+    padding-top: 250px;
+    padding-bottom: 400px;
+}
+.comeco{
+    background-color: #8FB339;
+    text-align: center;
+}
+.comeco img{
+    width: 200px;
+    border-radius: 400px;
+}
+.comeco button {
+    background-color: #4B5842;
+    border: hidden;
+    padding: 15px;
+    border-radius: 5px;
+    color: #DADDD8;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 1px;
+}
+.comeco i{
+    color: #DADDD8;
+    margin: 20px;
+    font-size: 40px;
+}
+.comeco a{
+    text-decoration: none;
+    color: #DADDD8;
+}
+.barras{
+    background-color: #B7CE63;
+    padding: 5px;
+    font-size: 25px;
+    padding-top: 17px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+.conteudo{
+    background-color: #DADDD8;
+    height: 130vh; /* Vertical height*/
+    text-align: center;
+    width: 100%;
+}
+.conteudo h3{
+    padding-top: 250px;
+    font-size: 25px;
+}
+.sobremim{
+    text-align: left;
+}
+.sobremim p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 260px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.formacao ul{
+   list-style-position: inside; 
+}
+.formacao li{
+    font-size: 25px;
+    padding-top: 225px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.skills ul{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+}
+.skills li{
+    display: inline-block;
+}
+.skills img{
+    width: 200px;
+}
+.projetos{
+    list-style-position: inside;
+}
+.contato{
+    width: 600px;
+    margin: 0 200px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+.contato h3{
+    padding-top: 20px;
+}
+.contato label{
+    font-weight: bold;
+}
+.contato 
+input[type="text"],
+input[type="email"],
+textarea{
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.meucontato{
+    position: relative;
+    width: 400px;
+    border: 1px solid black;
+    height: 100px;
+    margin-left: 1100px;
+}
+.abaconteudo{
+    background-color: #DADDD8;
+    height: 130vh; /* Vertical height*/
+    text-align: center;
+    font-weight: bold;
+}
+        
