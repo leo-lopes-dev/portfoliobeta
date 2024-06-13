@@ -4,6 +4,9 @@ body{
     padding: 0px;
     background-color: #8FB339;
 }
+ul{
+    z-index: 2;
+}
 .menu ul{
     background-color: #8FB339;
     text-align: left;
@@ -128,12 +131,9 @@ body{
 .contato label{
     font-weight: bold;
 }
-.contato 
-input[type="text"],
-input[type="email"],
-textarea{
+.contato input[type="text"] , input[type="email"] , textarea{
     background-color: whitesmoke;
-    width: 95%;
+    width: 200;
     padding: 2px;
     border: 1px solid black;
     border-radius: 5px;
@@ -152,7 +152,9 @@ input[type="submit"]{
     width: 400px;
     border: 1px solid black;
     height: 100px;
-    margin-left: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
 }
 .abaconteudo{
     background-color: #DADDD8;
@@ -160,4 +162,13 @@ input[type="submit"]{
     text-align: center;
     font-weight: bold;
 }
-        
+.formulario button{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    background-color: #4B5842;
+    color: #DADDD8;
+    border-radius: 5px;
+    cursor: pointer;
+    border: hidden;
+    padding: 5px 15px; 
+}
