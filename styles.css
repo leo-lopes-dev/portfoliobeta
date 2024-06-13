@@ -4,6 +4,9 @@ body{
     padding: 0px;
     background-color: #8FB339;
 }
+#body2{
+    text-align: center;
+}
 ul{
     z-index: 2;
 }
